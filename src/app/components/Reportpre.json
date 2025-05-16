@@ -1,0 +1,474 @@
+[
+  
+  
+  
+  {
+    "name": "Akshata Kori 20082024930 Pre-Yoga",
+    "energy_field": 58,
+    "stress": 2.85,
+    "energy": 58.0,
+    "chakra_alignment": 90,
+    "alpha": 7.1,
+    "beta": 4.5,
+    "theta": 5.3,
+    "stress_index": 56,
+    "relaxation_index": 28,
+    "HRV": 33,
+    "chakras": {
+      "Muladhara": { "energy": 6.0, "alignment": 85 },
+      "Svadhisthana": { "energy": 5.9, "alignment": 95 },
+      "Manipura": { "energy": 5.4, "alignment": 92 },
+      "Anahata": { "energy": 6.0, "alignment": 88 },
+      "Vishuddha": { "energy": 5.5, "alignment": 93 },
+      "Ajna": { "energy": 5.2, "alignment": 88 },
+      "Sahasrara": { "energy": 6.3, "alignment": 78 }
+    }
+  },
+  {
+    "name": "Akshatha Kori 2409 Pre-Yoga",
+    "energy_field": 52,
+    "stress": 2.55,
+    "energy": 52.0,
+    "chakra_alignment": 89,
+    "alpha": 6.7,
+    "beta": 4.1,
+    "theta": 5.0,
+    "stress_index": 48,
+    "relaxation_index": 35,
+    "HRV": 40,
+    "chakras": {
+      "Muladhara": { "energy": 5.7, "alignment": 83 },
+      "Svadhisthana": { "energy": 5.1, "alignment": 90 },
+      "Manipura": { "energy": 5.3, "alignment": 95 },
+      "Anahata": { "energy": 5.2, "alignment": 85 },
+      "Vishuddha": { "energy": 5.3, "alignment": 90 },
+      "Ajna": { "energy": 4.5, "alignment": 85 },
+      "Sahasrara": { "energy": 5.6, "alignment": 88 }
+    }
+  },
+  {
+    "name": "Akshatha Kori 1109 Pre-Yoga",
+    "energy_field": 50,
+    "stress": 2.80,
+    "energy": 50.0,
+    "chakra_alignment": 90,
+    "alpha": 6.9,
+    "beta": 4.4,
+    "theta": 5.2,
+    "stress_index": 52,
+    "relaxation_index": 30,
+    "HRV": 36,
+    "chakras": {
+      "Muladhara": { "energy": 5.8, "alignment": 90 },
+      "Svadhisthana": { "energy": 5.6, "alignment": 80 },
+      "Manipura": { "energy": 5.7, "alignment": 90 },
+      "Anahata": { "energy": 5.6, "alignment": 95 },
+      "Vishuddha": { "energy": 4.8, "alignment": 90 },
+      "Ajna": { "energy": 4.0, "alignment": 89 },
+      "Sahasrara": { "energy": 5.2, "alignment": 82 }
+    }
+  },
+  {
+    "name": "Akshatha Kori 0105 Pre-Yoga",
+    "energy_field": 55,
+    "stress": 2.65,
+    "energy": 55.0,
+    "chakra_alignment": 88,
+    "alpha": 6.5,
+    "beta": 4.0,
+    "theta": 5.1,
+    "stress_index": 49,
+    "relaxation_index": 33,
+    "HRV": 38,
+    "chakras": {
+      "Muladhara": { "energy": 5.9, "alignment": 84 },
+      "Svadhisthana": { "energy": 5.3, "alignment": 91 },
+      "Manipura": { "energy": 5.4, "alignment": 89 },
+      "Anahata": { "energy": 5.1, "alignment": 87 },
+      "Vishuddha": { "energy": 5.0, "alignment": 91 },
+      "Ajna": { "energy": 4.6, "alignment": 87 },
+      "Sahasrara": { "energy": 5.8, "alignment": 79 }
+    }
+  },
+  {
+    "name": "Akshatha Kori 1706 Pre-Yoga",
+    "energy_field": 53,
+    "stress": 2.75,
+    "energy": 53.0,
+    "chakra_alignment": 87,
+    "alpha": 6.8,
+    "beta": 4.3,
+    "theta": 5.1,
+    "stress_index": 50,
+    "relaxation_index": 31,
+    "HRV": 35,
+    "chakras": {
+      "Muladhara": { "energy": 5.6, "alignment": 82 },
+      "Svadhisthana": { "energy": 5.4, "alignment": 88 },
+      "Manipura": { "energy": 5.5, "alignment": 91 },
+      "Anahata": { "energy": 5.3, "alignment": 86 },
+      "Vishuddha": { "energy": 5.2, "alignment": 88 },
+      "Ajna": { "energy": 4.7, "alignment": 86 },
+      "Sahasrara": { "energy": 5.5, "alignment": 80 }
+    }
+  },
+  {
+    "name": "Akshatha Kori 2207 Pre-Yoga",
+    "energy_field": 51,
+    "stress": 2.90,
+    "energy": 51.0,
+    "chakra_alignment": 85,
+    "alpha": 7.2,
+    "beta": 4.6,
+    "theta": 5.4,
+    "stress_index": 57,
+    "relaxation_index": 27,
+    "HRV": 32,
+    "chakras": {
+      "Muladhara": { "energy": 5.5, "alignment": 81 },
+      "Svadhisthana": { "energy": 5.0, "alignment": 87 },
+      "Manipura": { "energy": 5.2, "alignment": 88 },
+      "Anahata": { "energy": 5.1, "alignment": 84 },
+      "Vishuddha": { "energy": 5.0, "alignment": 89 },
+      "Ajna": { "energy": 4.3, "alignment": 84 },
+      "Sahasrara": { "energy": 5.4, "alignment": 78 }
+    }
+  },
+  {
+    "name": "Ankit 120325 Pre-Yoga",
+    "energy_field": 42,
+    "stress": 3.12,
+    "energy": 44.10,
+    "chakra_alignment": 91,
+    "alpha": 7.4,
+    "beta": 4.7,
+    "theta": 5.6,
+    "stress_index": 60,
+    "relaxation_index": 25,
+    "HRV": 28,
+    "chakras": {
+      "Muladhara": { "energy": 5.0, "alignment": 94 },
+      "Svadhisthana": { "energy": 4.1, "alignment": 90 },
+      "Manipura": { "energy": 4.7, "alignment": 93 },
+      "Anahata": { "energy": 5.3, "alignment": 92 },
+      "Vishuddha": { "energy": 4.1, "alignment": 80 },
+      "Ajna": { "energy": 3.3, "alignment": 97 },
+      "Sahasrara": { "energy": 4.8, "alignment": 95 }
+    }
+  },
+  {
+    "name": "Ankit 0904202 Pre-Yoga",
+    "energy_field": 45,
+    "stress": 3.28,
+    "energy": 45.56,
+    "chakra_alignment": 99,
+    "alpha": 7.7,
+    "beta": 5.0,
+    "theta": 5.7,
+    "stress_index": 65,
+    "relaxation_index": 23,
+    "HRV": 26,
+    "chakras": {
+      "Muladhara": { "energy": 5.6, "alignment": 92 },
+      "Svadhisthana": { "energy": 5.0, "alignment": 91 },
+      "Manipura": { "energy": 5.6, "alignment": 88 },
+      "Anahata": { "energy": 5.9, "alignment": 93 },
+      "Vishuddha": { "energy": 3.8, "alignment": 85 },
+      "Ajna": { "energy": 3.8, "alignment": 98 },
+      "Sahasrara": { "energy": 4.3, "alignment": 98 }
+    }
+  },
+  {
+    "name": "Ankit 1104202 Pre-Yoga",
+    "energy_field": 48,
+    "stress": 2.94,
+    "energy": 48.58,
+    "chakra_alignment": 91,
+    "alpha": 7.0,
+    "beta": 4.6,
+    "theta": 5.3,
+    "stress_index": 55,
+    "relaxation_index": 28,
+    "HRV": 32,
+    "chakras": {
+      "Muladhara": { "energy": 6.0, "alignment": 91 },
+      "Svadhisthana": { "energy": 5.4, "alignment": 95 },
+      "Manipura": { "energy": 5.7, "alignment": 97 },
+      "Anahata": { "energy": 6.1, "alignment": 88 },
+      "Vishuddha": { "energy": 3.9, "alignment": 93 },
+      "Ajna": { "energy": 3.8, "alignment": 94 },
+      "Sahasrara": { "energy": 4.8, "alignment": 90 }
+    }
+  },
+  {
+    "name": "Ankit 1604202 Pre-Yoga",
+    "energy_field": 48,
+    "stress": 3.05,
+    "energy": 47.67,
+    "chakra_alignment": 88,
+    "alpha": 7.2,
+    "beta": 4.8,
+    "theta": 5.5,
+    "stress_index": 58,
+    "relaxation_index": 26,
+    "HRV": 29,
+    "chakras": {
+      "Muladhara": { "energy": 6.1, "alignment": 97 },
+      "Svadhisthana": { "energy": 5.3, "alignment": 93 },
+      "Manipura": { "energy": 5.7, "alignment": 88 },
+      "Anahata": { "energy": 6.3, "alignment": 82 },
+      "Vishuddha": { "energy": 4.2, "alignment": 96 },
+      "Ajna": { "energy": 3.8, "alignment": 93 },
+      "Sahasrara": { "energy": 4.4, "alignment": 90 }
+    }
+  },
+  {
+    "name": "Ankit 1703202 Pre-Yoga",
+    "energy_field": 35,
+    "stress": 3.01,
+    "energy": 35.08,
+    "chakra_alignment": 99,
+    "alpha": 7.1,
+    "beta": 4.4,
+    "theta": 5.2,
+    "stress_index": 57,
+    "relaxation_index": 27,
+    "HRV": 30,
+    "chakras": {
+      "Muladhara": { "energy": 4.5, "alignment": 91 },
+      "Svadhisthana": { "energy": 3.9, "alignment": 99 },
+      "Manipura": { "energy": 4.2, "alignment": 92 },
+      "Anahata": { "energy": 4.5, "alignment": 93 },
+      "Vishuddha": { "energy": 3.1, "alignment": 93 },
+      "Ajna": { "energy": 2.8, "alignment": 95 },
+      "Sahasrara": { "energy": 3.9, "alignment": 90 }
+    }
+  },
+  {
+    "name": "Ankit 1604202 Pre-Yoga",
+    "energy_field": 41,
+    "stress": 3.35,
+    "energy": 40.23,
+    "chakra_alignment": 93,
+    "alpha": 7.8,
+    "beta": 5.1,
+    "theta": 5.9,
+    "stress_index": 68,
+    "relaxation_index": 22,
+    "HRV": 25,
+    "chakras": {
+      "Muladhara": { "energy": 5.3, "alignment": 90 },
+      "Svadhisthana": { "energy": 4.6, "alignment": 94 },
+      "Manipura": { "energy": 4.8, "alignment": 98 },
+      "Anahata": { "energy": 5.0, "alignment": 94 },
+      "Vishuddha": { "energy": 3.3, "alignment": 97 },
+      "Ajna": { "energy": 3.3, "alignment": 97 },
+      "Sahasrara": { "energy": 4.1, "alignment": 95 }
+    }
+  },
+  {
+    "name": "Ankit 200325 Pre-Yoga",
+    "energy_field": 43.0,
+    "stress": 3.05,
+    "energy": 42.65,
+    "chakra_alignment": 90.0,
+    "chakras": {
+      "Muladhara": { "energy": 5.3, "alignment": 93.0 },
+      "Svadhisthana": { "energy": 4.7, "alignment": 91.0 },
+      "Manipura": { "energy": 4.8, "alignment": 94.0 },
+      "Anahata": { "energy": 5.2, "alignment": 95.0 },
+      "Vishuddha": { "energy": 3.3, "alignment": 99.0 },
+      "Ajna": { "energy": 3.5, "alignment": 94.0 },
+      "Sahasrara": { "energy": 4.4, "alignment": 89.0 }
+    },
+    "alpha": 3.9,
+    "beta": 6.85,
+    "theta": 9.58,
+    "stress_index": 30.5,
+    "relaxation_index": 9.5,
+    "HRV": 33.25
+  },
+  {
+    "name": "Ankit 260325 Pre-Yoga",
+    "energy_field": 50.0,
+    "stress": 3.26,
+    "energy": 51.07,
+    "chakra_alignment": 96.0,
+    "chakras": {
+      "Muladhara": { "energy": 6.0, "alignment": 90.0 },
+      "Svadhisthana": { "energy": 5.6, "alignment": 92.0 },
+      "Manipura": { "energy": 6.0, "alignment": 98.0 },
+      "Anahata": { "energy": 6.5, "alignment": 87.0 },
+      "Vishuddha": { "energy": 5.1, "alignment": 99.0 },
+      "Ajna": { "energy": 4.1, "alignment": 90.0 },
+      "Sahasrara": { "energy": 5.2, "alignment": 86.0 }
+    },
+    "alpha": 3.48,
+    "beta": 6.22,
+    "theta": 9.39,
+    "stress_index": 32.6,
+    "relaxation_index": 7.4,
+    "HRV": 31.1
+  },
+  {
+    "name": "Ankit 240325 Pre-Yoga",
+    "energy_field": 42.0,
+    "stress": 3.25,
+    "energy": 42.9,
+    "chakra_alignment": 93.0,
+    "chakras": {
+      "Muladhara": { "energy": 5.0, "alignment": 92.0 },
+      "Svadhisthana": { "energy": 4.5, "alignment": 97.0 },
+      "Manipura": { "energy": 5.0, "alignment": 94.0 },
+      "Anahata": { "energy": 5.5, "alignment": 94.0 },
+      "Vishuddha": { "energy": 4.1, "alignment": 90.0 },
+      "Ajna": { "energy": 3.5, "alignment": 95.0 },
+      "Sahasrara": { "energy": 4.6, "alignment": 99.0 }
+    },
+    "alpha": 3.5,
+    "beta": 6.25,
+    "theta": 9.38,
+    "stress_index": 32.5,
+    "relaxation_index": 7.5,
+    "HRV": 31.25
+  },
+  {
+    "name": "Ankit 210325 Pre-Yoga",
+    "energy_field": 39.0,
+    "stress": 3.58,
+    "energy": 39.95,
+    "chakra_alignment": 91.0,
+    "chakras": {
+      "Muladhara": { "energy": 5.0, "alignment": 99.0 },
+      "Svadhisthana": { "energy": 5.0, "alignment": 90.0 },
+      "Manipura": { "energy": 4.5, "alignment": 90.0 },
+      "Anahata": { "energy": 4.9, "alignment": 81.0 },
+      "Vishuddha": { "energy": 2.8, "alignment": 92.0 },
+      "Ajna": { "energy": 3.0, "alignment": 92.0 },
+      "Sahasrara": { "energy": 3.8, "alignment": 90.0 }
+    },
+    "alpha": 2.84,
+    "beta": 4.26,
+    "theta": 10.37,
+    "stress_index": 35.8,
+    "relaxation_index": 4.2,
+    "HRV": 26.3
+  },
+  {
+    "name": "Ankit 190325 Pre-Yoga",
+    "energy_field": 40.0,
+    "stress": 3.28,
+    "energy": 40.85,
+    "chakra_alignment": 99.0,
+    "chakras": {
+      "Muladhara": { "energy": 5.1, "alignment": 93.0 },
+      "Svadhisthana": { "energy": 4.5, "alignment": 99.0 },
+      "Manipura": { "energy": 4.3, "alignment": 92.0 },
+      "Anahata": { "energy": 5.2, "alignment": 90.0 },
+      "Vishuddha": { "energy": 4.0, "alignment": 85.0 },
+      "Ajna": { "energy": 3.3, "alignment": 91.0 },
+      "Sahasrara": { "energy": 4.2, "alignment": 87.0 }
+    },
+    "alpha": 3.44,
+    "beta": 5.16,
+    "theta": 9.92,
+    "stress_index": 32.8,
+    "relaxation_index": 7.2,
+    "HRV": 30.8
+  },
+  {
+    "name": "Ankit 250325 Pre-Yoga",
+    "energy_field": 49.0,
+    "stress": 3.18,
+    "energy": 49.52,
+    "chakra_alignment": 90.0,
+    "chakras": {
+      "Muladhara": { "energy": 6.0, "alignment": 95.0 },
+      "Svadhisthana": { "energy": 5.3, "alignment": 90.0 },
+      "Manipura": { "energy": 5.6, "alignment": 90.0 },
+      "Anahata": { "energy": 6.4, "alignment": 96.0 },
+      "Vishuddha": { "energy": 4.7, "alignment": 89.0 },
+      "Ajna": { "energy": 4.0, "alignment": 97.0 },
+      "Sahasrara": { "energy": 4.7, "alignment": 89.0 }
+    },
+    "alpha": 3.64,
+    "beta": 5.46,
+    "theta": 9.77,
+    "stress_index": 31.8,
+    "relaxation_index": 8.2,
+    "HRV": 32.3
+  },
+  {
+    "name": "Archie 240325 Pre-Yoga",
+    "energy_field": 55,
+    "stress": 3.62,
+    "energy": 55.8,
+    "chakra_alignment": 87,
+    "chakras": {
+      "Muladhara": { "energy": 7.3, "alignment": 92 },
+      "Svadhisthana": { "energy": 7.7, "alignment": 92 },
+      "Manipura": { "energy": 7.0, "alignment": 78 },
+      "Anahata": { "energy": 6.7, "alignment": 85 },
+      "Vishuddha": { "energy": 6.7, "alignment": 90 },
+      "Ajna": { "energy": 4.5, "alignment": 89 },
+      "Sahasrara": { "energy": 5.3, "alignment": 85 }
+    },
+    "alpha": 2.88,
+    "beta": 4.32,
+    "theta": 10.86,
+    "stress_index": 36.2,
+    "relaxation_index": 3.8,
+    "HRV": 25.9
+  },
+  {
+    "name": "Archiie 200325 Pre-Yoga",
+    "energy_field": 44,
+    "stress": 3.57,
+    "energy": 45.95,
+    "chakra_alignment": 92,
+    "chakras": {
+      "Muladhara": { "energy": 5.8, "alignment": 91 },
+      "Svadhisthana": { "energy": 5.9, "alignment": 90 },
+      "Manipura": { "energy": 5.7, "alignment": 98 },
+      "Anahata": { "energy": 5.8, "alignment": 79 },
+      "Vishuddha": { "energy": 5.5, "alignment": 78 },
+      "Ajna": { "energy": 3.8, "alignment": 86 },
+      "Sahasrara": { "energy": 4.2, "alignment": 87 }
+    },
+    "alpha": 2.96,
+    "beta": 4.44,
+    "theta": 10.64,
+    "stress_index": 35.7,
+    "relaxation_index": 4.3,
+    "HRV": 26.8
+  },
+  {
+    "name": "Archie 210325 Pre-Yoga",
+    "energy_field": 47,
+    "stress": 3.44,
+    "energy": 47.7,
+    "chakra_alignment": 84,
+    "chakras": {
+      "Muladhara": { "energy": 5.3, "alignment": 81 },
+      "Svadhisthana": { "energy": 6.5, "alignment": 92 },
+      "Manipura": { "energy": 5.4, "alignment": 80 },
+      "Anahata": { "energy": 6.2, "alignment": 67 },
+      "Vishuddha": { "energy": 6.0, "alignment": 91 },
+      "Ajna": { "energy": 3.7, "alignment": 89 },
+      "Sahasrara": { "energy": 4.7, "alignment": 91 }
+    },
+    "alpha": 3.04,
+    "beta": 4.56,
+    "theta": 10.32,
+    "stress_index": 34.4,
+    "relaxation_index": 5.0,
+    "HRV": 28.0
+  }
+
+
+]
+
+
+ 
+
+
