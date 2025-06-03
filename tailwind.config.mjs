@@ -7,12 +7,22 @@ export default {
   ],
   theme: {
     extend: {
-       fontFamily: {
+      animation: {
+        'pulse-slow': 'pulse 4s ease-in-out infinite',
+        'bounce-vertical': 'bounce-vertical 2s ease-in-out infinite',
+      },
+      keyframes: {
+        'bounce-vertical': {
+          '0%, 100%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(-10px)' },
+        },
+      },
+      fontFamily: {
         iso: ["ISOCP3", "sans-serif"],
         fceb: ['FCEB'],
         castleton: ['Castleton', 'serif'],
-        ransom: ['Ransom','sans-serif'],
-        ys:['Youngserif']
+        ransom: ['Ransom', 'sans-serif'],
+        ys: ['Youngserif'],
       },
     },
   },
