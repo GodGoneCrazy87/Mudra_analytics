@@ -7,9 +7,12 @@ export default {
   ],
   theme: {
     extend: {
-      fontFamily: {
+       fontFamily: {
         iso: ["ISOCP3", "sans-serif"],
         fceb: ['FCEB'],
+        castleton: ['Castleton', 'serif'],
+        ransom: ['Ransom','sans-serif'],
+        ys:['Youngserif']
       },
     },
   },

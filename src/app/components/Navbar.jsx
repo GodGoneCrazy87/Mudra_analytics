@@ -13,17 +13,18 @@ export default function Navbar() {
     { href: "/about", label: "About" },
     { href: "https://www.kaggle.com/code/vishnuratkadagadakai/stress-reduction-using-rbf/edit/run/237499926", label: "Model", external: true },
     { href: "/results", label: "Results" },
+    { href: "/chakra", label: "Chakra" },
   ];
 
   return (
     <nav className="fixed top-0 left-0 w-full bg-black text-white py-[1vh] px-[5vw] flex items-center justify-between z-50">
       {/* Logo */}
       <div className="flex items-center space-x-3">
-        <span className="text-lg font-[ISOCP3] font-bold text-[#D66937]">MUDRA ANALYTICS</span>
+        <span className="text-2xl font-mono leading-relaxed font-bold text-[#D66937]">MUDRA ANALYTICS</span>
       </div>
 
       {/* Desktop Menu */}
-      <div className="hidden md:flex space-x-[3vh] text-base ml-auto font-[ISOCP3] font-bold items-center">
+      <div className="hidden md:flex space-x-[3vh] text-xl ml-auto font-mono font-bold items-center">
         {navLinks.map(({ href, label, external }) =>
           external ? (
             <a
@@ -49,7 +50,7 @@ export default function Navbar() {
         )}
         <Link
           href="/report"
-          className="px-6 py-2 text-[2vh] md:text-[1.5vh] border-2 font-fceb hover:border-white rounded-full bg-white hover:text-white text-black hover:bg-black border-[#D66937] transition font-bold w-fit"
+          className="px-6 py-2 text-[2.2vh] md:text-[1.5vh] border-2 font-mono hover:border-white rounded-full bg-white hover:text-white text-black hover:bg-black border-[#D66937] transition uppercase font-bold w-fit"
         >
           Upload Report →
         </Link>

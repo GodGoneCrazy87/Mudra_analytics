@@ -27,16 +27,33 @@ body {
   font-style: normal;
 }
 @font-face {
+  font-family: "Ransom";
+  src: url("/fonts/Ransom.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
   font-family: 'FCEB';
   src: url('/fonts/FCEB.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
-
+@font-face {
+  font-family: 'Youngserif';
+  src: url('/fonts/YoungSerif.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
 body {
   font-family: "ISOCP3", sans-serif;
 }
-
+@font-face {
+  font-family: 'Castleton';
+  src: url('/fonts/Castleton.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  }
 /* ===== Custom Scrollbar Styles ===== */
 
 /* Scrollbar width */
@@ -98,8 +115,8 @@ html {
     -webkit-text-stroke: 1px #D66937;
     color: white;
   }
-  .text-fill-orange {
-    color: #D66937;
-    -webkit-text-fill-color: #D66937;
+  .text-fill-blue {
+    color: #ff7b3d;
+    -webkit-text-fill-color: #ff7b3d;
   }
 }
