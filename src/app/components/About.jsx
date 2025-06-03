@@ -26,13 +26,23 @@ export default function About() {
     <main className="text-white bg-black font-castleton">
       {/* Hero Section */}
       <section className="relative h-[80vh] w-full flex items-center justify-center text-center px-4">
-        <Image
-          src="/aboutbg1.png"
-          alt="About Background"
-          fill={true}
-          className="object-cover z-0"
-        />
-      </section>
+  {/* Mobile background */}
+  <Image
+    src="/aboutbg1m.png"
+    alt="About Background Mobile"
+    fill
+    className="object-cover z-0 block sm:hidden"
+  />
+
+  {/* Tablet/Desktop background */}
+  <Image
+    src="/aboutbg1.png"
+    alt="About Background Desktop"
+    fill
+    className="object-cover z-0 hidden sm:block"
+  />
+</section>
+
 
       <section className="relative min-h-[90vh] flex flex-col justify-center items-center px-4 py-16 bg-black text-white">
         {/* Centered Heading */}
@@ -135,15 +145,35 @@ export default function About() {
           viewport={{ once: true }}
         >
           <h2 className="text-[3.5vh] md:text-[5vh] font-bold mb-4">Meet the Team</h2>
-          <p className="text-[2vh] text-gray-300 mb-4">
-            Our interdisciplinary team merges ancient yogic insight with cutting-edge biosignal processing. From researchers in neuroscience to dedicated yoga practitioners and developers, we work together to redefine stress management and holistic wellness.
-          </p>
-          <ul className="list-disc pl-5 space-y-2 text-[1.8vh] text-gray-400">
-            <li>Anjali Mehta – Yoga Lead & Mudra Specialist</li>
-            <li>Dr. Raghav Nair – EEG/ECG Analysis Expert</li>
-            <li>Kiran Rao – UX Research & Experience Designer</li>
-            <li>Mehul Shah – Full Stack Developer & AI Model Integration</li>
-          </ul>
+<p className="text-[2vh] font-mono text-gray-300 mb-4">
+  This project was brought to life by a passionate team of final-year Electronics and Telecommunication Engineering students from Ramaiah Institute of Technology. We combined ancient yogic practices with modern biomedical technologies to create a meaningful impact.
+</p>
+<ul className="list-disc pl-5 space-y-2 text-[1.8vh] font-mono text-gray-400">
+  <li>
+  <span className="font-medium text-white">Katyayani Palak</span> – Documentation Head & Participant Coordinator  
+  <br />
+  Spearheaded data documentation and result analysis, ensuring scientific clarity and consistent participant tracking throughout the study.
+</li>
+<li>
+  <span className="font-medium text-white">Keerthi Palani</span> – Wellness Protocol Designer & Participant Coordinator  
+  <br />
+  Developed yoga-based intervention protocols and actively managed participant engagement, aligning traditional wellness practices with measurable outcomes.
+</li>
+<li>
+  <span className="font-medium text-white">Vishnurat Kadagadakai</span> – Software Developer & ML Specialist  
+  <br />
+  Led biosignal processing, feature extraction, and ML model training. He also designed and developed the project’s web interface, integrating data visualization and reports.
+</li>
+
+  <li>
+  <span className="font-medium text-white">Sahil K Chaurasia</span> – Logistics and Video Presentation  
+  <br />
+  Assisted with coordination and supported the final video compilation.
+</li>
+
+</ul>
+
+
         </motion.div>
       </section>
     </main>

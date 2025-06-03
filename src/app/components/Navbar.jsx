@@ -11,7 +11,7 @@ export default function Navbar() {
 
   const navLinks = [
     { href: "/about", label: "About" },
-    { href: "https://www.kaggle.com/code/vishnuratkadagadakai/stress-reduction-using-rbf/edit/run/237499926", label: "Model", external: true },
+    { href: "/model", label: "Model" },
     { href: "/results", label: "Results" },
     { href: "/chakra", label: "Chakra" },
   ];
@@ -19,9 +19,10 @@ export default function Navbar() {
   return (
     <nav className="fixed top-0 left-0 w-full bg-black text-white py-[1vh] px-[5vw] flex items-center justify-between z-50">
       {/* Logo */}
-      <div className="flex items-center space-x-3">
-        <span className="text-2xl font-mono leading-relaxed font-bold text-[#D66937]">MUDRA ANALYTICS</span>
-      </div>
+      <Link href="/" className="flex items-center space-x-3 cursor-pointer">
+  <span className="text-2xl font-mono leading-relaxed font-bold text-[#D66937]">MUDRA ANALYTICS</span>
+</Link>
+
 
       {/* Desktop Menu */}
       <div className="hidden md:flex space-x-[3vh] text-xl ml-auto font-mono font-bold items-center">
