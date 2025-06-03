@@ -1,7 +1,6 @@
 "use client";
 import { useState, useEffect } from "react";
 import { usePathname } from "next/navigation"; // ✅ Detect page changes
-import Loader from "./components/Loader";
 import Navbar from "./components/Navbar";
 
 export default function ClientLayout({ children }) {

@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 
 // ✅ Metadata is now properly included for SEO
 export const metadata = {
-  title: "Janamejaya Agency",
-  description: "Will you be Remembered",
+  title: "Mudra Analytics",
+  description: "Ancient meets Modern Health",
   icons: {
     icon: "/Logo.svg",
     shortcut: "/Logo.svg",
