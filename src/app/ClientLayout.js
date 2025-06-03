@@ -6,10 +6,6 @@ import Navbar from "./components/Navbar";
 export default function ClientLayout({ children }) {
   const pathname = usePathname(); // ✅ Detect page changes
 
-  useEffect(() => {
-    setLoading(true);
-    setTimeout(() => setLoading(false), 4000);
-  }, [pathname]); // ✅ Trigger loader on page change
 
   return (
     <>
