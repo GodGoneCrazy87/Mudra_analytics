@@ -1,44 +1,44 @@
 'use client';
 
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import Image from 'next/image';
 
-const resultData = [
-  { id: 1, src: '/results1.png', href: '#' },
-  { id: 2, src: '/results2.png', href: '#' },
-  { id: 3, src: '/results3.png', href: '#' },
-  { id: 4, src: '/results4.png', href: '#' },
-  { id: 5, src: '/results5.png', href: '#' },
-  { id: 6, src: '/results6.png', href: '#' },
-];
-//My name is Vishn h
+const groupBaseIds = ['11', '21', '31', '41', '51'];
+
 export default function Results() {
+  const [groupIndex, setGroupIndex] = useState(0);
+
+  useEffect(() => {
+    const last = localStorage.getItem('lastGroupIndex');
+    const nextIndex = last ? (parseInt(last) + 1) % groupBaseIds.length : 0;
+    setGroupIndex(nextIndex);
+    localStorage.setItem('lastGroupIndex', nextIndex.toString());
+  }, []);
+
+  const baseId = groupBaseIds[groupIndex]; // '11', '21', etc.
+
+  // Dynamically generate 6 result images per group
+  const resultData = Array.from({ length: 6 }, (_, i) => ({
+    id: i + 1,
+    src: `/results${parseInt(baseId) + i}.png`,
+    href: '#',
+  }));
+
   const [selectedId, setSelectedId] = useState(1);
 
   const getImageById = (id) => resultData.find((img) => img.id === id);
 
-  // smallerIds now includes all except selectedId (including image 1)
-  const smallerIds = resultData
-    .map((img) => img.id)
-    .filter((id) => id !== selectedId);
+  const smallerIds = resultData.map((img) => img.id).filter((id) => id !== selectedId);
 
   return (
     <section className="min-h-screen bg-black font-castleton px-6 py-24 text-white max-w-[1400px] mx-auto">
       <h1 className="text-5xl font-bold text-center mb-12">Project Results</h1>
 
-      {/* Top Grid: 3 cols x 2 rows with smaller height */}
-      <div
-        className="grid grid-cols-3 grid-rows-2 gap-6"
-        style={{ height: '50vh' }} // reduced height more
-      >
-        {/* Big image - spans 2 cols and 2 rows */}
+      {/* Top Grid */}
+      <div className="grid grid-cols-3 grid-rows-2 gap-6" style={{ height: '50vh' }}>
         <div
           className="relative rounded-2xl overflow-hidden border border-gray-700 cursor-default transition-all duration-700 ease-in-out"
-          style={{
-            gridColumn: 'span 2',
-            gridRow: 'span 2',
-            transformOrigin: 'center center',
-          }}
+          style={{ gridColumn: 'span 2', gridRow: 'span 2' }}
         >
           <Image
             src={getImageById(selectedId).src}
@@ -48,53 +48,64 @@ export default function Results() {
           />
         </div>
 
-        {/* Small images on right (2 slots) */}
-        {[...smallerIds]
-          // filter only those IDs that can fit here — no filtering to exclude image 1!
-          .filter((id) => [1, 2, 3, 4, 5, 6].includes(id))
-          .slice(0, 2)
-          .map((id, index) => (
-            <div
-              key={id}
-              onClick={() => setSelectedId(id)}
-              className="relative rounded-xl overflow-hidden border border-gray-700 cursor-pointer transition-all duration-700 ease-in-out hover:scale-105"
-              style={{
-                gridColumn: '3',
-                gridRow: index + 1,
-                transformOrigin: 'center center',
-              }}
-            >
-              <Image
-                src={getImageById(id).src}
-                alt={`Result ${id}`}
-                fill
-                className="object-contain transition-transform duration-700 ease-in-out"
-              />
-            </div>
-          ))}
+        {/* 2 right-top images */}
+        {smallerIds.slice(0, 2).map((id, index) => (
+          <div
+            key={id}
+            onClick={() => setSelectedId(id)}
+            className="relative rounded-xl overflow-hidden border border-gray-700 cursor-pointer transition-all duration-700 ease-in-out hover:scale-105"
+            style={{ gridColumn: '3', gridRow: index + 1 }}
+          >
+            <Image
+              src={getImageById(id).src}
+              alt={`Result ${id}`}
+              fill
+              className="object-contain transition-transform duration-700 ease-in-out"
+            />
+          </div>
+        ))}
       </div>
 
-      {/* Bottom section: 3 images side by side with height matching top stacked images */}
+      {/* Bottom 3 images */}
       <div className="grid grid-cols-3 gap-6 mt-6">
-        {[...smallerIds]
-          .filter((id) => [1, 2, 3, 4, 5, 6].includes(id))
-          .slice(2) // remaining images after first 2 on right top
-          .map((id) => (
-            <div
-              key={id}
-              onClick={() => setSelectedId(id)}
-              className="relative rounded-xl overflow-hidden border border-gray-700 cursor-pointer transition-all duration-700 ease-in-out hover:scale-105"
-              style={{ height: '25vh', transformOrigin: 'center center' }}
-            >
-              <Image
-                src={getImageById(id).src}
-                alt={`Result ${id}`}
-                fill
-                className="object-contain transition-transform duration-700 ease-in-out"
-              />
-            </div>
-          ))}
+        {smallerIds.slice(2).map((id) => (
+          <div
+            key={id}
+            onClick={() => setSelectedId(id)}
+            className="relative rounded-xl overflow-hidden border border-gray-700 cursor-pointer transition-all duration-700 ease-in-out hover:scale-105"
+            style={{ height: '25vh' }}
+          >
+            <Image
+              src={getImageById(id).src}
+              alt={`Result ${id}`}
+              fill
+              className="object-contain transition-transform duration-700 ease-in-out"
+            />
+          </div>
+        ))}
       </div>
+
+  <div className="space-y-6 mt-12">
+  <div className="relative rounded-xl overflow-hidden border border-gray-700" style={{ height: '35vh' }}>
+    <Image
+      src="/results8.png"
+      alt="Results 8"
+      fill
+      className="object-contain"
+    />
+  </div>
+
+  <div className="relative rounded-xl overflow-hidden border border-gray-700" style={{ height: '35vh' }}>
+    <Image
+      src="/results7.png"
+      alt="Results 7"
+      fill
+      className="object-contain"
+    />
+  </div>
+</div>
+
+
     </section>
   );
 }
